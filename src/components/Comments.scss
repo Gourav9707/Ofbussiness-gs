@@ -1,0 +1,25 @@
+.Comments{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+
+h3{
+  font-size: 20px;
+}
+
+.CommentBody{
+  border: 1px solid #f7f7f7;
+  padding: 20px 15px;
+  margin: 10px 0;
+  background-color: #f7f7f7;
+  .User{
+    text-transform: capitalize;
+  }
+}
+}
+@media (max-width: 767px){
+  .Comments{
+    width: 100%;
+  }
+}
